@@ -84,6 +84,9 @@ filter(diamonds, carat > 3) (Ref 7)
 
 1. *What are the URLs of your Google Colab notebooks (both Python and R)?*
 
+    Python (https://colab.research.google.com/drive/1AXOWL-KyR8YQ0K-lHqJW5rbJFXXwzsK2?usp=sharing)
+    R (https://colab.research.google.com/drive/1FKMPtP376g0ZtmUrxWcnpVdZ3MRRPacH?usp=sharing)
+
 ## Tableau
 
 *Insert your the image of your final bar chart here*
