@@ -54,9 +54,13 @@ To italicize a word simply add one *asterick* before and after the word. I'm fee
 
 #### Data Visualization Exercises
 
-1. (Q2) *How many rows are in mpg? How many columns? 234 (Ref 5)
+1. (Q2) *How many rows are in mpg? How many columns?  
+
+     234 Rows and 11 columns (Reference 5)
 
 1. (Q4) *Make a scatterplot of hwy vs cyl.*
+
+![image](https://user-images.githubusercontent.com/17502942/131251693-a5b17bf5-0830-46bc-9d3e-111ed880e5fc.png) (Ref 6)
 
 
 #### Workflow: basics Exercises
@@ -125,4 +129,5 @@ Another example, `count()`
 * Insert Reference 2, https://wordpress.com/support/markdown-quick-reference/
 * Insert Reference 3, https://www.researchgate.net/figure/Bulleted-list-in-R-Markdown-input-left-and-output-right_fig1_260126796
 * Insert Reference 4, https://www.tidyverse.org/
-* Insert Refernce 5, https://www.google.com/search?q=how+many+rows+are+in+mpg%3F&rlz=1C5CHFA_enUS864US865&oq=how+many+rows+are+in+mpg%3F&aqs=chrome..69i57j0i512.4668j0j7&sourceid=chrome&ie=UTF-8
+* Insert Reference 5, https://www.google.com/search?q=how+many+rows+are+in+mpg%3F&rlz=1C5CHFA_enUS864US865&oq=how+many+rows+are+in+mpg%3F&aqs=chrome..69i57j0i512.4668j0j7&sourceid=chrome&ie=UTF-8
+* Insert Reference 6, https://rstudio-pubs-static.s3.amazonaws.com/271994_11b7ddf08518406c942009d2da632982.html
