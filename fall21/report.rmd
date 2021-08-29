@@ -76,7 +76,7 @@ ggplot(data = mpg) +
 
 filter(mpg, cyl == 8)
 
-filter(diamonds, carat > 3)
+filter(diamonds, carat > 3) (Ref 7)
 ```
 
 
@@ -134,3 +134,4 @@ Another example, `count()`
 * Insert Reference 4, https://www.tidyverse.org/
 * Insert Reference 5, https://www.google.com/search?q=how+many+rows+are+in+mpg%3F&rlz=1C5CHFA_enUS864US865&oq=how+many+rows+are+in+mpg%3F&aqs=chrome..69i57j0i512.4668j0j7&sourceid=chrome&ie=UTF-8
 * Insert Reference 6, https://rstudio-pubs-static.s3.amazonaws.com/271994_11b7ddf08518406c942009d2da632982.html
+* Insert Reference 7, https://bookdown.org/yih_huynh/Guide-to-R-Book/diamonds.html
