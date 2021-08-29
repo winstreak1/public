@@ -56,11 +56,13 @@ To italicize a word simply add one *asterick* before and after the word. I'm fee
 
 1. (Q2) *How many rows are in mpg? How many columns?  
 
+     dim(mpg)
+
      234 Rows and 11 columns (Reference 5)
 
 1. (Q4) *Make a scatterplot of hwy vs cyl.*
 
-![image](https://user-images.githubusercontent.com/17502942/131251693-a5b17bf5-0830-46bc-9d3e-111ed880e5fc.png) (Ref 6)
+     ![image](https://user-images.githubusercontent.com/17502942/131251693-a5b17bf5-0830-46bc-9d3e-111ed880e5fc.png) (Ref 6)
 
 
 #### Workflow: basics Exercises
@@ -69,13 +71,14 @@ To italicize a word simply add one *asterick* before and after the word. I'm fee
 
 ```r
 library(tidyverse)
-ggplot(dota = mpg) + 
+ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
 
-fliter(mpg, cyl = 8)
+filter(mpg, cyl == 8)
 
-filter(diamond, carat > 3)
+filter(diamonds, carat > 3)
 ```
+
 
 ## Google Colab
 
