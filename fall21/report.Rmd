@@ -54,7 +54,7 @@ To italicize a word simply add one *asterick* before and after the word. I'm fee
 
 #### Data Visualization Exercises
 
-1. (Q2) *How many rows are in mpg? How many columns?*
+1. (Q2) *How many rows are in mpg? How many columns? 234 (Ref 5)
 
 1. (Q4) *Make a scatterplot of hwy vs cyl.*
 
@@ -125,3 +125,4 @@ Another example, `count()`
 * Insert Reference 2, https://wordpress.com/support/markdown-quick-reference/
 * Insert Reference 3, https://www.researchgate.net/figure/Bulleted-list-in-R-Markdown-input-left-and-output-right_fig1_260126796
 * Insert Reference 4, https://www.tidyverse.org/
+* Insert Refernce 5, https://www.google.com/search?q=how+many+rows+are+in+mpg%3F&rlz=1C5CHFA_enUS864US865&oq=how+many+rows+are+in+mpg%3F&aqs=chrome..69i57j0i512.4668j0j7&sourceid=chrome&ie=UTF-8
