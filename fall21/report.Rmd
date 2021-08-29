@@ -1,6 +1,6 @@
 ---
 title: "HW 1, CS 625, Fall 2021"
-author: "Dr. Michele Weigle"
+author: "Peter G. Mavronicolas"
 date: Sep 9, 2021
 output: rmarkdown::github_document
 ---
@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Git, GitHub
 
-1. *What is your GitHub username?*
+1. *What is your GitHub username?* winstreak1
 
 2. *What is the URL of your remote GitHub repo (created through Mr. Kennedy's exercises)?*
 
