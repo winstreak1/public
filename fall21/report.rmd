@@ -91,7 +91,12 @@ filter(diamonds, carat > 3) (Ref 7)
 
 *Insert your the image of your final bar chart here*
 
+![SalesintheEast](https://user-images.githubusercontent.com/17502942/131373403-ed569ef4-ad3e-46f6-9d80-987ddb188077.png)
+
+
 1. *What conclusions can you draw from the chart?*
+
+    Products that showed the greatest profits were Binders in 2019 and Copiers in 2021. Products that showed consistent losses were Bookcases and Tables which may be an indicator of consumer preference toward digital books and a shift toward working remotely. Office supplies also declined in 2021 which may indicate either a shift away from pens, pencils and paper products in the new era of a remote workforce or just a reflection of budget cuts reacting to a COVID-19 economy.
 
 ## Observable and Vega-Lite
 
@@ -103,7 +108,7 @@ filter(diamonds, carat > 3) (Ref 7)
 
 1. *Under "Pick a location, see the weather forecast", pick a location on the map.  Where was the point you picked near?*
 
-1. *The last visualization on this page is a "fancy" weather chart embedded from another notebook.  Click on the 3 dots next to that chart and choose 'Download PNG'.  Insert the PNG into your report.*
+1. *The last visualization on this page is a "fancy" weather chart embedded from another notebook.  Click on the 3 dots next to that chart and choose 'Download PNG'. Insert the PNG into your report.*
 
 ### Charting with Vega-Lite
 
@@ -138,3 +143,4 @@ Another example, `count()`
 * Insert Reference 5, https://www.google.com/search?q=how+many+rows+are+in+mpg%3F&rlz=1C5CHFA_enUS864US865&oq=how+many+rows+are+in+mpg%3F&aqs=chrome..69i57j0i512.4668j0j7&sourceid=chrome&ie=UTF-8
 * Insert Reference 6, https://rstudio-pubs-static.s3.amazonaws.com/271994_11b7ddf08518406c942009d2da632982.html
 * Insert Reference 7, https://bookdown.org/yih_huynh/Guide-to-R-Book/diamonds.html
+* Insert Reference 8, https://www.earthdatascience.org/courses/earth-analytics/document-your-science/add-images-to-rmarkdown-report/ (add images to markdown report)
