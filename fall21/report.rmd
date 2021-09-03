@@ -98,17 +98,28 @@ filter(diamonds, carat > 3) (Ref 7)
 
     Products that showed the greatest profits were Binders in 2019 and Copiers in 2021. Products that showed consistent losses were Bookcases and Tables which may be an indicator of consumer preference toward digital books and a shift toward working remotely. Office supplies also declined in 2021 which may indicate either a shift away from pens, pencils and paper products in the new era of a remote workforce or just a reflection of budget cuts reacting to a COVID-19 economy.
 
+
+
 ## Observable and Vega-Lite
 
 ### A Taste of Observable
 
 1. *In the "New York City weather forecast" section, try replacing `Forecast: detailedForecast` with `Forecast: shortForecast`. Then press the blue play button  or use Shift-Return to run your change. What happens?*
 
+     Under the forecast column, the description is shortened to a bried description such as 'mostly sunny' or'haze'.
+
 1. *Under the scatterplot of temperature vs. name, try replacing `markCircle()` with `markSquare()`. Then press the blue play button  or use Shift-Return to run your change. What happens? How about `markPoint()`?*
+
+     The points on the scatter plot change from circles to squares. For 'markPoint()', the point change to open circles.
 
 1. *Under "Pick a location, see the weather forecast", pick a location on the map.  Where was the point you picked near?*
 
+     Port Ricjey, FL (Longitude: -82.86     Latitude: 28.31)
+
 1. *The last visualization on this page is a "fancy" weather chart embedded from another notebook.  Click on the 3 dots next to that chart and choose 'Download PNG'. Insert the PNG into your report.*
+
+     ![untitled](https://user-images.githubusercontent.com/17502942/132046097-f6edaabe-f89e-4a53-8fc9-ef74abe3ba11.png)
+
 
 ### Charting with Vega-Lite
 
