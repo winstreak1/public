@@ -125,24 +125,48 @@ filter(diamonds, carat > 3) (Ref 7)
 
 `markCircle()`
 
-1. *Pass an option of `{ size: 200 }` to `markCircle()`.*
-1. *Try `markSquare` instead of `markCircle`.*
-1. *Try `markPoint({ shape: 'diamond' })`.*
+1. *Pass an option of `{ size: 200 }` to `markCircle()`.*9
 
-`vl.x().fieldQ("Horsepower")`, ...
+The circles become large and overlap with one another.
+
+3. *Try `markSquare` instead of `markCircle`.*
+
+The circle points become squares on the scatterplot.
+
+5. *Try `markPoint({ shape: 'diamond' })`.*
+
+The points become diamonds with open insides.
+
+`vl.x().fieldQ("Horsepower")`, ... 
+
+This line of code was already included and no changes occur.
 
 1. *Change `Horsepower` to `Acceleration`*
-1. *Swap what fields are displayed on the x- and y-axis*
+
+The 'X' axis label changes to Acceleration and the points rotate about the y -axis.
+
+3. *Swap what fields are displayed on the x- and y-axis*
 
 `vl.tooltip().fieldN("Name")`
 
+The x and y axis labels change as well as the points.
+
 1. *Change `Name` to `Origin`.*
+
+     The origin of the vehicles are shown when hovering on a point.
 
 Another example, `count()`
 
-1. *Remove the `vl.y().fieldN("Origin")` line.*
-1. *Replace `count()` with `average("Miles_per_Gallon")`.*
+count included on the x axis makes a vertical line of plots.
 
+1. *Remove the `vl.y().fieldN("Origin")` line.*
+
+     The scatterplot forms a straight line on the vertical axis without any variation in Y coordinates.
+     
+3. *Replace `count()` with `average("Miles_per_Gallon")`.*
+
+     The scatterplot forms a straighht, linear line that starts has a slope of 1/1.
+ 
 ## References
 
 *Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
@@ -155,3 +179,4 @@ Another example, `count()`
 * Insert Reference 6, https://rstudio-pubs-static.s3.amazonaws.com/271994_11b7ddf08518406c942009d2da632982.html
 * Insert Reference 7, https://bookdown.org/yih_huynh/Guide-to-R-Book/diamonds.html
 * Insert Reference 8, https://www.earthdatascience.org/courses/earth-analytics/document-your-science/add-images-to-rmarkdown-report/ (add images to markdown report)
+* Insert Reference 9, https://www.youtube.com/watch?v=ZV_Yjcs5WtM (resize markCircle)
